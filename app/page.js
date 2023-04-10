@@ -9,10 +9,10 @@ const lora = Lora({ subsets: ['latin'] })
 export default function Home() {
   return (
     
-    <main className='bg-blue-700 px-10 text-white'>
+    <main className='bg-blue-700 px-10 text-white '>
       <section className='min-h-screen'>
         <nav className='py-5 px-5 flex justify-between'>
-          <h1 className='text-xl font-Lora'><a href='/'>27 studio</a></h1>
+          <h1 className='text-xl font-Lora hover:bg-sky-700'><a href='/'>27 studio</a></h1>
           <ul className='flex items-center'>
             <li className='px-4'><BsFillMoonStarsFill className='cursor-pointer text-2xl'/></li>
             <li> <Link href="/work">Work</Link> </li>
