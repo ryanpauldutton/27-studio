@@ -1,15 +1,13 @@
-import './globals.css'
-import Link from 'next/link'
+import '../styles/globals.css';
 
-export const metadata = {
-  title: '27 Studio',
-  description: 'A london based design studio',
-}
+const RootLayout = ({ children }) => (
+  <html lang="en">
+    <head>
+      <link rel="preconnect" href="https://stijndv.com" />
+      <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
+    </head>
+    <body>{children}</body>
+  </html>
+);
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
-}
+export default RootLayout;
