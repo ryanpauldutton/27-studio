@@ -15,9 +15,11 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center
-      items-center flex-col relative z-10">
+      items-center flex-col relative z-10"
+      >
         <m.h1 variants={textVariant(1.1)}
-          className={styles.heroHeading}>
+          className={styles.heroHeading}
+        >
           HERRo
         </m.h1>
         <m.div
