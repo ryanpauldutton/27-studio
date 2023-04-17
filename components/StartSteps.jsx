@@ -2,10 +2,10 @@ import styles from '../styles';
 
 const StartSteps = ({ number, text }) => (
   <div className={`${styles.flexCenter} flex-row`}>
-    <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-gray-200`}>
-      <p>{number}</p>
+    <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] glassmorphism`}>
+      <p className='font-bold text-[20px] text-white'>0{number}</p>
     </div>
-    <p className="px-4 text-white">{text}</p>
+    <p className="flex-1 ml-[30px] font-normal text-[18px] text-gray-100">{text}</p>
   </div>
 );
 
