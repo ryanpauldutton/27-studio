@@ -1,13 +1,10 @@
 'use client'
+import Link from "next/link";
 
 const Navbar = () => (
-    <nav className="w-full flex justify-between p-1">
-      <div className="absolute w-[50%] inset-0
-      gradient-01"
-      />
-      
+    <nav className="fixed bg-blend-difference mix-blend-difference w-full flex justify-between p-2 text-white">
         
-        <h2 className="font-extrabold leading-[30px] text-[24px] text-white">27 Studio</h2>
+        <Link href='/'><h2 className="font-extrabold leading-[30px] text-[24px]">27-STUDIO</h2></Link>
         <ul className="flex gap-4">
             <li>Home</li>
             <li>Work</li>

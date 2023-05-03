@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.bgOne{
+  background-image: url('/public/imgone.jpg');
+  background-size: cover;
+}
