@@ -6,7 +6,7 @@ import Link from 'next/link.js'
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Environment,OrbitControls } from '@react-three/drei'
-import Navbar from '../components/NavBar.jsx'
+
 
 import ModelTwo from '../components/ModelTwo'
 
