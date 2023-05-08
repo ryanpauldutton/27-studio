@@ -38,28 +38,28 @@ export default function Home() {
 <Link className='text-3xl relative w-1/2 overflow-hidden' href='/projects/one'>
   <div className='h-full flex relative'>
   <Image
-      src="/imgone.jpg"
+      src="/gpaa-main.jpg"
       fill
       sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className='z-10'
+              className='z-10 object-cover'
     />
     <h3 className='z-20 text-violet-700'>Project One</h3>
     </div>
     </Link>
 
-    <Link className='text-3xl relative w-1/2 overflow-hidden' href='/projects/one'>
+    <Link className='text-3xl relative w-1/2 overflow-hidden' href='/projects/two'>
   <div className='h-full flex relative'>
   <Image
-      src="/imgone.jpg"
+      src="/larosa-main.jpg"
       fill
       sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className='z-10'
+              className='z-10 object-cover'
     />
-    <h3 className='z-20 text-violet-700'>Project Two</h3>
+    <h3 className='p-2 z-20 text-violet-700'>Project Two</h3>
     </div>
     </Link>
 
