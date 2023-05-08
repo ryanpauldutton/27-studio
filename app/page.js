@@ -57,7 +57,7 @@ export default function Home() {
       sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className='z-10 object-cover'
+              className='z-10 object-cover hover:scale-[1.1] transition-all'
     />
     <h3 className='p-2 z-20 text-violet-700'>Project Two</h3>
     </div>
