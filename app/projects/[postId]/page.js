@@ -5,3 +5,5 @@ export const page = () => {
     <div>{postId}</div>
   )
 }
+
+export default Page;

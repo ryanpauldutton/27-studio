@@ -2,6 +2,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/NavBar.jsx'
 import Preloader from '../components/preloader'
+import Footer from '@/components/Footer'
+import Side from '@/components/Side'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,9 +16,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Preloader />
+      {/* <Preloader /> */}
         <Navbar />
+        <Preloader />
         {children}
+        < Footer/>
       </body>
     </html>
   )
