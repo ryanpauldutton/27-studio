@@ -4,6 +4,6 @@ import { motion } from 'framer-motion'
 
 export default function Footer() {
     return (
-        <div>Footer</div>
+        <div className='text-7xl'>27-STUDIO</div>
     )
 }

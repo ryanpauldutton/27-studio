@@ -4,6 +4,9 @@ import Navbar from '../components/NavBar.jsx'
 import Preloader from '../components/preloader'
 import Footer from '@/components/Footer'
 import Side from '@/components/Side'
+import SmoothScroll from '@/components/SmoothScroll'
+
+import CustomCursor from '@/components/CustomCursor'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +20,18 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       {/* <Preloader /> */}
+      
+      
+      
         <Navbar />
         <Preloader />
+        <SmoothScroll>
         {children}
+        
         < Footer/>
+        
+        </SmoothScroll>
+        <CustomCursor/>
       </body>
     </html>
   )
