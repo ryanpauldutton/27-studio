@@ -2,11 +2,11 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/NavBar.jsx'
 import Preloader from '../components/preloader'
-import Footer from '@/components/Footer'
-import Side from '@/components/Side'
-import SmoothScroll from '@/components/SmoothScroll'
+import Footer from '../components/Footer'
+import Side from '../components/Side'
+import SmoothScroll from '../components/SmoothScroll'
 
-import CustomCursor from '@/components/CustomCursor'
+import CustomCursor from '../components/CustomCursor'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,12 +25,12 @@ export default function RootLayout({ children }) {
       
         <Navbar />
         <Preloader />
-        <SmoothScroll>
+        {/* <SmoothScroll> */}
         {children}
         
-        < Footer/>
+        <Footer />
         
-        </SmoothScroll>
+        {/* </SmoothScroll> */}
         <CustomCursor/>
       </body>
     </html>

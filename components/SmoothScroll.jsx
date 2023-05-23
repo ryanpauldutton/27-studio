@@ -1,51 +1,51 @@
-'use client'
+// 'use client'
 
-import { useEffect, useRef } from 'react';
-import LocomotiveScroll from 'locomotive-scroll';
+// import { useEffect, useRef } from 'react';
+// import LocomotiveScroll from 'react-locomotive-scroll';
 
-const SmoothScroll = ({ children }) => {
-  const scrollRef = useRef(null);
-  const scrollInstanceRef = useRef(null);
+// const SmoothScroll = ({ children }) => {
+//   const scrollRef = useRef(null);
+//   const scrollInstanceRef = useRef(null);
 
-  useEffect(() => {
-    const initScrollInstance = () => {
-      scrollInstanceRef.current = new LocomotiveScroll({
-        el: scrollRef.current,
-        smooth: true,
-      });
-    };
+//   useEffect(() => {
+//     const initScrollInstance = () => {
+//       scrollInstanceRef.current = new LocomotiveScroll({
+//         el: scrollRef.current,
+//         smooth: true,
+//       });
+//     };
 
-    const destroyScrollInstance = () => {
-      if (scrollInstanceRef.current) {
-        scrollInstanceRef.current.destroy();
-        scrollInstanceRef.current = null;
-      }
-    };
+//     const destroyScrollInstance = () => {
+//       if (scrollInstanceRef.current) {
+//         scrollInstanceRef.current.destroy();
+//         scrollInstanceRef.current = null;
+//       }
+//     };
 
-    const handleRouteChange = () => {
-      destroyScrollInstance();
-    };
+//     const handleRouteChange = () => {
+//       destroyScrollInstance();
+//     };
 
-    initScrollInstance();
+//     initScrollInstance();
 
-    window.addEventListener('beforeunload', destroyScrollInstance);
-    window.addEventListener('unload', destroyScrollInstance);
-    window.addEventListener('pagehide', destroyScrollInstance);
-    window.addEventListener('popstate', destroyScrollInstance);
-    window.addEventListener('hashchange', destroyScrollInstance);
+//     window.addEventListener('beforeunload', destroyScrollInstance);
+//     window.addEventListener('unload', destroyScrollInstance);
+//     window.addEventListener('pagehide', destroyScrollInstance);
+//     window.addEventListener('popstate', destroyScrollInstance);
+//     window.addEventListener('hashchange', destroyScrollInstance);
 
-    return () => {
-      destroyScrollInstance();
+//     return () => {
+//       destroyScrollInstance();
 
-      window.removeEventListener('beforeunload', destroyScrollInstance);
-      window.removeEventListener('unload', destroyScrollInstance);
-      window.removeEventListener('pagehide', destroyScrollInstance);
-      window.removeEventListener('popstate', destroyScrollInstance);
-      window.removeEventListener('hashchange', destroyScrollInstance);
-    };
-  }, []);
+//       window.removeEventListener('beforeunload', destroyScrollInstance);
+//       window.removeEventListener('unload', destroyScrollInstance);
+//       window.removeEventListener('pagehide', destroyScrollInstance);
+//       window.removeEventListener('popstate', destroyScrollInstance);
+//       window.removeEventListener('hashchange', destroyScrollInstance);
+//     };
+//   }, []);
 
-  return <div ref={scrollRef}>{children}</div>;
-};
+//   return <div ref={scrollRef}>{children}</div>;
+// };
 
-export default SmoothScroll;
+// export default SmoothScroll;

@@ -17,7 +17,7 @@
 }
 
 html{
-  overflow: hidden;
+ 
 }
 
 body {
@@ -29,7 +29,6 @@ body {
     )
     rgb(var(--background-start-rgb));
     cursor: none;
-    overflow: hidden;
 }
 
 a{

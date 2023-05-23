@@ -4,7 +4,34 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './section/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  options: {
+    safelist: {
+      standard: [
+      'text-2xl',
+      'text-3xl',
+      'text-4xl',
+      'text-5xl',
+      'text-6xl',
+      'sm:text-2xl',
+      'sm:text-3xl',
+      'sm:text-4xl',
+      'sm:text-5xl',
+      'sm:text-6xl',
+      'md:text-2xl',
+      'md:text-3xl',
+      'md:text-4xl',
+      'md:text-5xl',
+      'md:text-6xl',
+      'lg:text-2xl',
+      'lg:text-3xl',
+      'lg:text-4xl',
+      'lg:text-5xl',
+      'lg:text-6xl',
+      ],
+    },
+  },
   theme: {
     extend: {
       backgroundImage: {
@@ -13,6 +40,9 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'larosa': "url('/larosa-one.jpg')",
           'gpaamain': "url('/gpaamain.jpg')"
+      },
+      fontFamily: {
+        heading: ["Inter", "sans-serif"],
       },
     },
   },
