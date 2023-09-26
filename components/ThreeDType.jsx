@@ -18,7 +18,7 @@ export default function ThreeDType() {
         <Suspense fallback={null}>
           <ModelTwo />
           <OrbitControls makeDefault />
-          <Environment preset="sunset" background />
+          <Environment preset="city" />
         </Suspense>
       </Canvas>
     )

@@ -13,10 +13,12 @@ type Props = {
 export const ProjectTitle = ({children, id}: Props) => {
     const ref = useRef<HTMLParagraphElement>(null);
     const isInView = useInView(ref, { margin: "-50% 0px -50% 0px"});
-    const setInViewProject = useProjectStore((state) => state.setInViewProject )
+    const setInViewProject = useProjectStore((state) => state.setInViewProject );
+    const InViewProject = useProjectStore((state) => state.inViewProject)
 
     useEffect(() => {
         if (isInView) setInViewProject(id);
+        if (!isInView && InViewProject === id) setInViewProject(null)
     }, [isInView, id, setInViewProject]);
 
     return(

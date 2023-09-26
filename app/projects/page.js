@@ -1,9 +1,9 @@
-
+import ProjectBody from "../../components/ProjectBody"
 
 export default function Projects() {
     return (
         <>
-    <div>hello</div>
+   
     </>
     )
 }

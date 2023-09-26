@@ -19,7 +19,7 @@ export default function ProjectScroll() {
         
         </div>
        <div className="sticky w-full flex w-full top-0 h-screen items-center">
-        <div className='relative aspect-square bg-green-500 w-full rounded-2xl'>
+        <div className='relative aspect-square w-full rounded-2xl'>
         {projects.map((project) => (
             <project.card id={project.id} key={project.id} />
           ))}

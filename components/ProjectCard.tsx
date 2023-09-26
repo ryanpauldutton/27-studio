@@ -1,6 +1,8 @@
 import classNames from "classnames";
 import React from "react";
 import { useProjectStore } from "./store";
+import Link from "next/link";
+
 
 type ProjectCardProps = {
     gradient: string;
@@ -29,9 +31,14 @@ export const ProjectCard = ({ gradient, children, id }: ProjectCardProps) => {
 
 export const LaRosa = ({id}: CardProps) => {
     return(
+        
         <ProjectCard id={id} gradient='from-[#ffffff] to-[#111111]'>
-            <span />
+            <Link href='/projects/two'>
+            <img className="absolute left-[10%] w-[40%]" src="/iphone-mock-up.webp" />
+            <img className="absolute left-[30%] top-[30%] w-[70%]" src="/macbook-M.webp" />
+            </Link>
         </ProjectCard>
+        
     )
 }
 

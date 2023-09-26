@@ -96,3 +96,7 @@ a{
   mix-blend-mode: difference;
   /* Add additional styles for the cursor appearance */
 }
+
+#hello:hover .cursor{
+  transform: scale(3);
+}
