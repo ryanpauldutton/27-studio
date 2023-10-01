@@ -15,26 +15,26 @@ import Modal from '../components/modal'
 
 const projects = [
   {
-    title: "GPAA",
-    src: "c2montreal.png",
+    title: "Jack Solomons",
+    src: "JS-imac.jpg",
     color: "#000000",
     link: "one",
   },
   {
-    title: "Jack Solomons",
-    src: "officestudio.png",
+    title: "GPAA",
+    src: "gpaa-main.jpg",
     color: "#8C8C8C",
     link: "two"
   },
   {
-    title: "P3CL",
-    src: "locomotive.png",
+    title: "Higher Capital",
+    src: "hc-main.jpg",
     color: "#EFE8D3",
     link: "three"
   },
   {
-    title: "La Rosa",
-    src: "silencio.png",
+    title: "P3CL",
+    src: "P3CL-Web.jpg",
     color: "#706D63",
     link: "four"
   }

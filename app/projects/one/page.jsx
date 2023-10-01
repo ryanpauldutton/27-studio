@@ -15,8 +15,8 @@ export default function ProjectOne({}) {
        <div className=" flex">
        
         <div className="flex flex-col mt-20 p-6 w-1/4"><div className="h-24">
-          <h1 className="font-semibold text-6xl">GPAA</h1>
-          </div><span className="font-medium text-slate-500">CLIENT</span><span>GPAA</span></div>
+          <h1 className="font-semibold text-6xl">JACK SOLOMONS</h1>
+          </div><span className="font-medium text-slate-500">CLIENT</span><span>Jack Solomons Speakeasy</span></div>
         <div className="flex flex-col mt-20 p-6 w-1/4">
           <div className="h-24"><h1 className="font-semibold text-6xl"></h1></div>
           <span className="font-medium text-slate-500">INVOLVEMENT</span>
