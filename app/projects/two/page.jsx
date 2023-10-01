@@ -2,7 +2,7 @@
 import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
-import p3climageone from "/public/images/P3CL-Web.jpg";
+import mainimg from "public/images/gpaa-main.jpg";
 import p3clmobileone from "/public/images/p3cl-screen-one.png";
 import p3clmobiletwo from "/public/images/p3cl-screen-two.png";
 import p3clmobilethree from "/public/images/p3cl-screen-three.png";
@@ -51,7 +51,7 @@ export default function ProjectOne({}) {
       
 <div className="m-screen h-screen w-screen overflow-hidden">
 <Image 
-  src={p3climageone}
+  src={mainimg}
   className="object-cover block"
   placeholder="blur"
   quality={100}

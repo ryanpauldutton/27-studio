@@ -2,7 +2,7 @@
 import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
-import jsimageone from "/public/images/JS-imac.jpg";
+import mainimg from "/public/images/hc-main.jpg";
 import p3clmobileone from "/public/images/p3cl-screen-one.png";
 import p3clmobiletwo from "/public/images/p3cl-screen-two.png";
 import p3clmobilethree from "/public/images/p3cl-screen-three.png";
@@ -14,28 +14,23 @@ export default function ProjectOne({}) {
       <main>
        <div className=" flex">
        
-        <div className="flex flex-col mt-20 p-6 w-1/4"><div className="h-24">
+        <div className="flex flex-col mt-20 p-6 w-1/2"><div className="h-24">
           <h1 className="font-semibold text-6xl">GPAA</h1>
-          </div><span className="font-medium text-slate-500">CLIENT</span><span>GPAA</span></div>
-        <div className="flex flex-col mt-20 p-6 w-1/4">
-          <div className="h-24"><h1 className="font-semibold text-6xl"></h1></div>
+          </div>
+
+          <div className="flex w-full">
+            <div className="flex flex-col w-1/2">
+        <span className="font-medium text-slate-500">CLIENT</span><span>GPAA</span>
+        </div>
+
+        <div className="flex flex-col">
+          
           <span className="font-medium text-slate-500">INVOLVEMENT</span>
           <span>Branding <br></br> UI/UX Design</span></div>
-
-        <div className="flex flex-col mt-20 p-6 w-1/2">
-          <div className="h-24"><h1 className="font-semibold text-6xl"></h1>
-          
           </div>
-          
-          
-          <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
 
-        <span className="max-w-[500px]">The Global Performance Arts Alliance is a visionary project led by Solange Urdang 
-          and an accomplished team boasting extensive expertise in dance, theatre, and performing 
-          arts education. Our aim is to harness creativity and innovation on a global scale, as we 
-          endeavor to bring the finest West End training to the world.
-          </span>
-          <span className="font-medium text-slate-500 mt-12">RESULTS</span>
+
+        <span className="font-medium text-slate-500 mt-12">RESULTS</span>
 
         <span className="max-w-[500px]">Our project involved rebranding a London-based Performance and Dance School's
           global branch, aligning it with international audiences while maintaining synergy
@@ -45,13 +40,39 @@ export default function ProjectOne({}) {
           London's prestige with global appeal, accompanied by a user-friendly website ready to 
           engage a worldwide audience, positioning our institution for a thriving future in the 
           performance and dance industry.
-          </span></div>
+          </span>
+
+        </div>
+        
+
+        <div className="flex flex-col mt-20 p-6 w-1/2">
+          <div className="h-24">
           
+          </div>
+          <div className="flex flex-col justify-between h-full">
+          <div className="flex flex-col">
+          <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
+
+        <span className="max-w-[500px]">The Global Performance Arts Alliance is a visionary project led by Solange Urdang 
+          and an accomplished team boasting extensive expertise in dance, theatre, and performing 
+          arts education. Our aim is to harness creativity and innovation on a global scale, as we 
+          endeavor to bring the finest West End training to the world.
+          </span>
+          </div>
+            <div className="relative">
+          <h3 className="text-xl text-end">
+  <Link href="https://jacksolomons.com/">LIVE SITE</Link>
+</h3>
+</div>
+</div>
+          </div>
+        
+
        </div>
       
 <div className="m-screen h-screen w-screen overflow-hidden">
 <Image 
-  src={jsimageone}
+  src={mainimg}
   className="object-cover block"
   placeholder="blur"
   quality={100}
