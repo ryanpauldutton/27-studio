@@ -1,6 +1,13 @@
 'use client'
-import ProjectBody from "../../../components/ProjectBody"
-import Link from "next/link"
+import ProjectBody from "../../../components/ProjectBody";
+import Link from "next/link";
+import Image from "next/image";
+import p3climageone from "/public/images/P3CL-Web.jpg";
+import p3clmobileone from "/public/images/p3cl-screen-one.png";
+import p3clmobiletwo from "/public/images/p3cl-screen-two.png";
+import p3clmobilethree from "/public/images/p3cl-screen-three.png";
+import p3climac from "/public/images/p3cl-imacpro.jpg";
+import p3clmacbooktable from "/public/images/p3cl-macbook-table.jpg";
 
 export default function ProjectOne({}) {
     return (
@@ -17,44 +24,102 @@ export default function ProjectOne({}) {
 
         <div className="flex flex-col mt-20 p-6 w-1/2">
           <div className="h-24"><h1 className="font-semibold text-6xl"></h1>
-          </div><span className="font-medium text-slate-500">RESULTS</span>
+          
+          </div>
+          
+          
+          <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
 
-        <span>We developed a Identity that spoke to the international market, that also fit in with the other brands
-          that belong to the Dang company group
+        <span className="max-w-[500px]">The Global Performance Arts Alliance is a visionary project led by Solange Urdang 
+          and an accomplished team boasting extensive expertise in dance, theatre, and performing 
+          arts education. Our aim is to harness creativity and innovation on a global scale, as we 
+          endeavor to bring the finest West End training to the world.
+          </span>
+          <span className="font-medium text-slate-500 mt-12">RESULTS</span>
+
+        <span className="max-w-[500px]">Our project involved rebranding a London-based Performance and Dance School's
+          global branch, aligning it with international audiences while maintaining synergy
+          with the company's existing identity. We aimed to attract a younger demographic 
+          and ensure the identity's longevity. Additionally, we overhauled the website's 
+          UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends 
+          London's prestige with global appeal, accompanied by a user-friendly website ready to 
+          engage a worldwide audience, positioning our institution for a thriving future in the 
+          performance and dance industry.
           </span></div>
           
        </div>
-       <div className="h-screen flex flex-col w-1/2 p-6"><span>Some writing notes</span><br />
-       <span>noomo agency example <br /><br />
-      By leveraging the capabilities of Webflow and incorporating smooth on-scroll 3D animations,
-      we have transformed the OrCAD website into an immersive and interactive experience.
-      The revamped website now offers a visually appealing design and seamless functionality,
-      resulting in improved user engagement and satisfaction.</span><br /><span>Unseen Studio</span><br />
-      <span>We reimagined the True Staging branding completely, working with them on their strategy
-         and transforming their visual identity across print and digital</span>
-         
-         <br /><br />
-<span>
-         We created a contemporary new look for Lewa House, while carefully preserving its rustic and authentic charm
-         </span>
-         <br /><br />
-         <span>
-         The full scope of this project involved a total rethink of the Lewa House identity and online presence.
-         We worked closely with the Lewa House team to evolve their brand,
-         maintaining the essence of what makes Lewa so special, whilst giving it a more contemporary
-         feel in order to appeal to a wider audience.
-         </span>
-        <br />
-        <span>
-        Along with creating a new logo mark and introducing a more refined suite of typography,
-        we carefully selected a new set of brand colours featuring warm and earthy tones,
-        inspired by the vibrant Lewa landscape. This was supported by hand drawn elements
-        to add to the rugged charm of the brand, which aimed to emulate the unique
-        experience they offer as a travel destination.
-        </span>
-        
-        </div>
+      
+<div className="m-screen h-screen w-screen overflow-hidden">
+<Image 
+  src={p3climageone}
+  className="object-cover block"
+  placeholder="blur"
+  quality={100}
+  height={2000}
+  sizes="100vw"
+  />
+</div>
 
+<div className="h-[130vh] flex">
+<div className="w-1/2 p-12">
+<Image 
+  src={p3clmacbooktable}
+  className="object-cover block"
+  placeholder="blur"
+  quality={100}
+  height={1200}
+  sizes="100vw"
+  />
+
+</div>
+<div className="w-1/2 p-12 h-full flex flex-col-reverse">
+<Image 
+  src={p3climac}
+  className="object-cover block drop-shadow-md"
+  placeholder="blur"
+  quality={100}
+  height={600}
+  sizes="100vw"
+  />
+
+</div>
+</div>
+
+<div className="h-auto py-24 flex">
+<div className="w-1/3 p-12 flex justify-center">
+<Image 
+  src={p3clmobileone}
+  className="object-cover block drop-shadow-md"
+  placeholder="blur"
+  quality={100}
+  height={700}
+  sizes="100vw"
+  />
+
+</div>
+<div className="w-1/3 p-12 flex justify-center">
+<Image 
+  src={p3clmobiletwo}
+  className="object-cover block drop-shadow-md"
+  placeholder="blur"
+  quality={100}
+  height={700}
+  sizes="100vw"
+  />
+
+</div>
+<div className="w-1/3 p-12 flex justify-center drop-shadow-md">
+<Image 
+  src={p3clmobilethree}
+  className="object-cover block"
+  placeholder="blur"
+  quality={100}
+  height={700}
+  sizes="100vw"
+  />
+
+</div>
+</div>
         
       </main>
     )

@@ -5,10 +5,12 @@ import Preloader from '../components/preloader'
 import Footer from '../components/Footer'
 import Side from '../components/Side'
 import SmoothScroll from '../components/SmoothScroll'
+import Link from 'next/link'
 
 import CustomCursor from '../components/CustomCursor'
 
 const inter = Inter({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: '27-Studio',
