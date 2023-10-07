@@ -7,7 +7,7 @@ import ThreeDType from '../components/ThreeDType'
 import ScrollType from '../components/ScrollType'
 import { useState } from 'react';
 import Projects from '../components/Projects';
-import Description from '../components/Description';
+import Descript from '../components/descript';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
 
@@ -29,7 +29,7 @@ export default function Home() {
 
       <ThreeDType />
 
-      <Description />
+      <Descript />
       <Projects />
       <SlidingImages />
       <Contact />
