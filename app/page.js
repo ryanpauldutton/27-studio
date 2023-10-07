@@ -7,7 +7,7 @@ import ThreeDType from '../components/ThreeDType'
 import ScrollType from '../components/ScrollType'
 import { useState } from 'react';
 import Projects from '../components/Projects';
-import Description from '..components/Description';
+import Description from '../components/Description';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
 
