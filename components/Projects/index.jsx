@@ -30,7 +30,7 @@ const projects = [
       title: "P3CL",
       src: "P3CL-Web.jpg",
       color: "#706D63",
-      link: "four"
+      link: "/projects/four"
     }
   ]
 
@@ -84,8 +84,8 @@ export default function Home() {
   <main onMouseMove={(e) => {moveItems(e.clientX, e.clientY)}} className={styles.projects}>
     <div className={styles.body}>
       {
-        projects.map( (project, index) => {
-          return <Project index={index} title={project.title} manageModal={manageModal} key={index}/>
+        projects.map( (project, index, link) => {
+          return <Project index={index} title={project.title} link={project.link} manageModal={manageModal} key={index}/>
         })
       }
     </div>

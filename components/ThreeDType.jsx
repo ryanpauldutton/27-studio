@@ -4,6 +4,7 @@ import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls } from '@react-three/drei'
 
+
 import ModelTwo from './ModelTwo'
 
 export default function ThreeDType() {

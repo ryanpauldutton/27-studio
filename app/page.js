@@ -18,14 +18,15 @@ import Contact from '../components/Contact';
 
 
 
-
 export default function Home() {
+  
 
   const [modal, setModal] = useState({active: false, index: 0})  
   return (
 
-    <main className="flex flex-col relative bg-slate-300">
-<div className='absolute w-full h-screen z-30 flex flex-col-reverse p-2 z'>
+    <main className="flex flex-col relative bg-slate-300 overflow-hidden">
+       
+<div className='absolute w-full h-screen z-30 flex flex-col-reverse p-2 '>
         <ScrollType />
         </div>
 
