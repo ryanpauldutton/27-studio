@@ -2,10 +2,6 @@
 import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
-import gpaaweb from "gpaa-main.jpg";
-import gpaalogo from "gpaa-logo.jpg";
-import gpaabc from "gpaa-bc.jpg";
-import gpaawall from "gpaa-wall.jpg";
 
 export default function ProjectOne({ }) {
   return (
@@ -52,7 +48,7 @@ export default function ProjectOne({ }) {
 
       <div className="m-screen h-screen w-screen overflow-hidden">
         <Image
-          src={gpaalogo}
+          src="gpaa-logo.jpg"
           className="object-cover block"
           placeholder="blur"
           quality={100}
@@ -64,7 +60,7 @@ export default function ProjectOne({ }) {
       <div className="h-[130vh] flex">
         <div className="w-1/2 p-12">
           <Image
-            src={gpaawall}
+            src="gpaa-bc.jpg"
             className="object-cover block"
             placeholder="blur"
             quality={100}
@@ -75,7 +71,7 @@ export default function ProjectOne({ }) {
         </div>
         <div className="w-1/2 p-12 h-full flex flex-col-reverse">
           <Image
-            src={gpaabc}
+            src="gpaa-wall.jpg"
             className="object-cover block drop-shadow-md"
             placeholder="blur"
             quality={100}
@@ -91,7 +87,7 @@ export default function ProjectOne({ }) {
 
         <div className="m-screen h-screen w-screen overflow-hidden">
           <Image
-            src={gpaaweb}
+            src="gpaamain.jpg"
             className="object-cover block"
             placeholder="blur"
             quality={100}
