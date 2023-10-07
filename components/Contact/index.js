@@ -24,7 +24,7 @@ export default function index() {
                     <h2>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                         <Rounded  backgroundColor={"#334BD3"} className={styles.button}>
-                            <p>Get in touch</p>
+                            <p>View CV</p>
                         </Rounded>
                     </motion.div>
                     <motion.svg style={{rotate, scale: 2}} width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
