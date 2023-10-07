@@ -4,16 +4,11 @@ import Image from 'next/image.js'
 import Link from 'next/link.js'
 import Card from '../components/Card'
 import ThreeDType from '../components/ThreeDType'
-import { motion } from 'framer-motion'
-import { TypingText, TitleText, TextMove, TestMove } from '../components/CustomAni'
-import ProjectScroll from '../section/ProjectScroll'
 import ScrollType from '../components/ScrollType'
-import styles from './page.module.css'
 import { useState } from 'react';
 import Projects from '../components/Projects';
-import Modal from '../components/modal'
-import Description from '../components/Description';
-import SlidingImages from '../components/SlidingImages';
+import Description from 'components/Description';
+import SlidingImages from '/components/SlidingImages';
 import Contact from '../components/Contact';
 
 

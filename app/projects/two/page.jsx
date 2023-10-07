@@ -3,11 +3,9 @@ import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
 import gpaaweb from "public/images/gpaa-main.jpg";
-import gpaalogo from "/public/images/gpaa-logo.jpg";
-import p3clmobiletwo from "/public/images/p3cl-screen-two.png";
-import p3clmobilethree from "/public/images/p3cl-screen-three.png";
-import gpaabc from "/public/images/gpaa-bc.jpg";
-import gpaawall from "/public/images/gpaa-wall.jpg";
+import gpaalogo from "public/images/gpaa-logo.jpg";
+import gpaabc from "public/images/gpaa-bc.jpg";
+import gpaawall from "public/images/gpaa-wall.jpg";
 
 export default function ProjectOne({}) {
     return (
