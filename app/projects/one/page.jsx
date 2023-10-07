@@ -12,21 +12,22 @@ import p3clmacbooktable from "/public/images/p3cl-macbook-table.jpg";
 export default function ProjectOne({}) {
     return (
       <main>
-       <div className=" flex">
+       <div className="flex-col w-full">
        
-        <div className="flex flex-col mt-20 p-6 w-1/4"><div className="h-24">
+        <div className="flex flex-col mt-0 p-2 pt-20">
+          <div>
           <h1 className="font-semibold text-6xl">JACK SOLOMONS</h1>
-          </div><span className="font-medium text-slate-500">CLIENT</span><span>Jack Solomons Speakeasy</span></div>
-        <div className="flex flex-col mt-20 p-6 w-1/4">
-          <div className="h-24"><h1 className="font-semibold text-6xl"></h1></div>
+          </div>
+          </div>
+
+          <div className="flex px-2 justify-start content-start w-full py-10">
+        <div className="flex place-content-start flex-col w-1/4">
+          <h1 className="font-semibold text-6xl"></h1>
           <span className="font-medium text-slate-500">INVOLVEMENT</span>
           <span>Branding <br></br> UI/UX Design</span></div>
 
-        <div className="flex flex-col mt-20 p-6 w-1/2">
-          <div className="h-24"><h1 className="font-semibold text-6xl"></h1>
-          
-          </div>
-          
+        <div className="flex flex-col">
+          <h1 className="font-semibold text-6xl"></h1>
           
           <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
 
@@ -35,17 +36,19 @@ export default function ProjectOne({}) {
           arts education. Our aim is to harness creativity and innovation on a global scale, as we 
           endeavor to bring the finest West End training to the world.
           </span>
-          <span className="font-medium text-slate-500 mt-12">RESULTS</span>
+          </div>
+          <div className="flex flex-col px-6">
+          <span className="font-medium text-slate-500">RESULTS</span>
 
-        <span className="max-w-[500px]">Our project involved rebranding a London-based Performance and Dance School's
-          global branch, aligning it with international audiences while maintaining synergy
-          with the company's existing identity. We aimed to attract a younger demographic 
+        <span className="max-w-[500px]">We aimed to attract a younger demographic 
           and ensure the identity's longevity. Additionally, we overhauled the website's 
           UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends 
           London's prestige with global appeal, accompanied by a user-friendly website ready to 
           engage a worldwide audience, positioning our institution for a thriving future in the 
           performance and dance industry.
-          </span></div>
+          </span>
+          </div>
+          </div>
           
        </div>
       

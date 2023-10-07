@@ -10,35 +10,13 @@ import ProjectScroll from '../section/ProjectScroll'
 import ScrollType from '../components/ScrollType'
 import styles from './page.module.css'
 import { useState } from 'react';
-import Project from '../components/project';
+import Projects from '../components/Projects';
 import Modal from '../components/modal'
+import Description from '../components/Description';
+import SlidingImages from '../components/SlidingImages';
+import Contact from '../components/Contact';
 
-const projects = [
-  {
-    title: "Jack Solomons",
-    src: "JS-imac.jpg",
-    color: "#000000",
-    link: "one",
-  },
-  {
-    title: "GPAA",
-    src: "gpaa-main.jpg",
-    color: "#8C8C8C",
-    link: "two"
-  },
-  {
-    title: "Higher Capital",
-    src: "hc-main.jpg",
-    color: "#EFE8D3",
-    link: "three"
-  },
-  {
-    title: "P3CL",
-    src: "P3CL-Web.jpg",
-    color: "#706D63",
-    link: "four"
-  }
-]
+
 
 
 export default function Home() {
@@ -46,36 +24,17 @@ export default function Home() {
   const [modal, setModal] = useState({active: false, index: 0})  
   return (
 
-    <main className="flex flex-col relative">
+    <main className="flex flex-col relative bg-slate-300">
 <div className='absolute w-full h-screen z-30 flex flex-col-reverse p-2 z'>
         <ScrollType />
         </div>
 
       <ThreeDType />
 
-
-<main className={styles.main}>
-  <div className={styles.body}>
-    {
-      projects.map( (project, index) => {
-        return <Project link={project.link} index={index} title={project.title} setModal={setModal} key={index}/>
-      })
-    }
-  </div>
-  <Modal modal={modal} projects={projects}/>
-</main>
-
-
-      {/* <ProjectScroll/> */}
-      {/* <div className='px-4 w-full relative'>
-      <div className=' bg-gray-600  p-8 py-12 grid md:grid-cols-1 w-full relative gap-4 z-10 rounded-t-2xl'>
-      <Card bgimg = "bg-gpaamain" title="GPAA" colour="text-cyan-200"/>
-      <Card bgimg = "bg-larosa" title="Higher Capital" colour="text-green-200"/>
-      <Card bgimg = "bg-larosa" title="La Rosa" colour="text-blue-200"/>
-
-      </div>
-      </div>
-      <div class="bg" className=''></div> */}
+      <Description />
+      <Projects />
+      <SlidingImages />
+<Contact />
     </main>
     
    
