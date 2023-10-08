@@ -2,15 +2,19 @@
 import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
+import img1 from "/public/images/gpaa-logo.jpg"
+import img2 from "/public/images/gpaa-wall.jpg"
+import img3 from "/public/images/gpaa-bc.jpg"
+import img4 from "/public/images/gpaa-main.jpg"
 
 export default function ProjectOne({ }) {
   return (
-    <main className="bg-gray-950">
+    <main className="bg-slate-300">
       <div className="flex-col w-full">
 
         <div className="flex flex-col mt-0 p-2 pt-20">
           <div>
-            <h1 className="font-semibold text-6xl text-white">GPAA</h1>
+            <h1 className="font-semibold text-6xl text-slate-800">GPAA</h1>
           </div>
         </div>
 
@@ -18,14 +22,14 @@ export default function ProjectOne({ }) {
           <div className="flex place-content-start flex-col w-1/4">
             <h1 className="font-semibold text-6xl"></h1>
             <span className="font-medium text-slate-500">INVOLVEMENT</span>
-            <span className="text-white">Branding <br></br> UI/UX Design</span></div>
+            <span className="text-slate-800">Branding <br></br> UI/UX Design</span></div>
 
           <div className="flex flex-col">
             <h1 className="font-semibold text-6xl"></h1>
 
             <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
 
-            <span className="max-w-[500px] text-white">The Global Performance Arts Alliance is a visionary project led by Solange Urdang
+            <span className="max-w-[500px] text-slate-800">The Global Performance Arts Alliance is a visionary project led by Solange Urdang
               and an accomplished team boasting extensive expertise in dance, theatre, and performing
               arts education. Our aim is to harness creativity and innovation on a global scale, as we
               endeavor to bring the finest West End training to the world.
@@ -34,7 +38,7 @@ export default function ProjectOne({ }) {
           <div className="flex flex-col px-6">
             <span className="font-medium text-slate-500">RESULTS</span>
 
-            <span className="max-w-[500px] text-white">We aimed to attract a younger demographic
+            <span className="max-w-[500px] text-slate-800">We aimed to attract a younger demographic
               and ensure the identity's longevity. Additionally, we overhauled the website's
               UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends
               London's prestige with global appeal, accompanied by a user-friendly website ready to
@@ -48,11 +52,11 @@ export default function ProjectOne({ }) {
 
       <div className="m-screen h-screen w-screen overflow-hidden">
         <Image
-          src="gpaa-logo.jpg"
+          src={img1}
           className="object-cover block"
-          placeholder="blur"
           quality={100}
-          height={2000}
+          height={1920}
+          
           sizes="100vw"
         />
       </div>
@@ -60,22 +64,24 @@ export default function ProjectOne({ }) {
       <div className="h-[130vh] flex">
         <div className="w-1/2 p-12">
           <Image
-            src="gpaa-bc.jpg"
+            src={img2}
             className="object-cover block"
             placeholder="blur"
             quality={100}
             height={1200}
+            
             sizes="100vw"
           />
 
         </div>
         <div className="w-1/2 p-12 h-full flex flex-col-reverse">
           <Image
-            src="gpaa-wall.jpg"
+            src={img3}
             className="object-cover block drop-shadow-md"
             placeholder="blur"
             quality={100}
             height={600}
+            width={600}
             sizes="100vw"
           />
 
@@ -87,7 +93,7 @@ export default function ProjectOne({ }) {
 
         <div className="m-screen h-screen w-screen overflow-hidden">
           <Image
-            src="gpaamain.jpg"
+            src={img4}
             className="object-cover block"
             placeholder="blur"
             quality={100}

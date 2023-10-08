@@ -12,19 +12,19 @@ const projects = [
       title: "Jack Solomons",
       src: "JS-imac.jpg",
       color: "#000000",
-      link: "one",
+      link: "/projects/one",
     },
     {
       title: "GPAA",
       src: "gpaa-main.jpg",
       color: "#8C8C8C",
-      link: "two"
+      link: "/projects/two"
     },
     {
       title: "Higher Capital",
       src: "hc-main.jpg",
       color: "#EFE8D3",
-      link: "three"
+      link: "/projects/three"
     },
     {
       title: "P3CL",

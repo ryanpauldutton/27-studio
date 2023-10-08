@@ -1,3 +1,5 @@
+'use client'
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/NavBar.jsx'
@@ -5,7 +7,8 @@ import Preloader from '../components/preloader'
 import Side from '../components/Side'
 import SmoothScroll from '../components/SmoothScroll'
 import Link from 'next/link'
-
+import Contact from '../components/Contact';
+import SlidingImages from '../components/SlidingImages';
 import CustomCursor from '../components/CustomCursor'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -33,6 +36,8 @@ export default function RootLayout({ children }) {
         
         {/* </SmoothScroll> */}
         <CustomCursor/>
+        <SlidingImages />
+        <Contact />
       </body>
     </html>
   )

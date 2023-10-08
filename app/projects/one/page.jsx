@@ -3,9 +3,9 @@ import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
 import jsimageone from "/public/images/JS-imac.jpg";
-import p3clmobileone from "/public/images/p3cl-screen-one.png";
-import p3clmobiletwo from "/public/images/p3cl-screen-two.png";
-import p3clmobilethree from "/public/images/p3cl-screen-three.png";
+import mobileone from "/public/images/js-mobile-3.png";
+import mobiletwo from "/public/images/js-mobile-2.png";
+import mobilethree from "/public/images/js-mobile-1.png";
 import p3climac from "/public/images/p3cl-imacpro.jpg";
 import p3clmacbooktable from "/public/images/p3cl-macbook-table.jpg";
 
@@ -53,14 +53,9 @@ export default function ProjectOne({}) {
        </div>
       
 <div className="m-screen h-screen w-screen overflow-hidden">
-<Image 
-  src={jsimageone}
-  className="object-cover block"
-  placeholder="blur"
-  quality={100}
-  height={2000}
-  sizes="100vw"
-  />
+<video muted autoPlay loop style={{ width: '1920px', height: '1080px' }}>
+<source src="/video/js-macbook-2.mp4" type="video/mp4"/>
+      </video>
 </div>
 
 <div className="h-[130vh] flex">
@@ -91,7 +86,7 @@ export default function ProjectOne({}) {
 <div className="h-auto py-24 flex">
 <div className="w-1/3 p-12 flex justify-center">
 <Image 
-  src={p3clmobileone}
+  src={mobileone}
   className="object-cover block drop-shadow-md"
   placeholder="blur"
   quality={100}
@@ -102,7 +97,7 @@ export default function ProjectOne({}) {
 </div>
 <div className="w-1/3 p-12 flex justify-center">
 <Image 
-  src={p3clmobiletwo}
+  src={mobiletwo}
   className="object-cover block drop-shadow-md"
   placeholder="blur"
   quality={100}
@@ -113,7 +108,7 @@ export default function ProjectOne({}) {
 </div>
 <div className="w-1/3 p-12 flex justify-center drop-shadow-md">
 <Image 
-  src={p3clmobilethree}
+  src={mobilethree}
   className="object-cover block"
   placeholder="blur"
   quality={100}
