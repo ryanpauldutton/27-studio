@@ -35,7 +35,8 @@ export default function RootLayout({ children }) {
         
         {/* </SmoothScroll> */}
         <CustomCursor/>
-        
+        <SlidingImages />
+        <Contact />
       </body>
     </html>
   )
