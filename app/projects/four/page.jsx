@@ -34,21 +34,13 @@ export default function ProjectOne({}) {
          
          <span className="font-medium text-slate-400">COMPANY OVERVIEW</span>
 
-       <span className="max-w-[500px] ">The Global Performance Arts Alliance is a visionary project led by Solange Urdang 
-         and an accomplished team boasting extensive expertise in dance, theatre, and performing 
-         arts education. Our aim is to harness creativity and innovation on a global scale, as we 
-         endeavor to bring the finest West End training to the world.
+       <span className="max-w-[500px] ">P3CL is a groundbreaking initiative spearheaded by industry trailblazers, a distinguished team with unparalleled expertise in construction, talent management, and women's leadership. There mission is to revolutionize the construction industry by unleashing talent potential, fostering virtual HR excellence, and empowering women in leadership roles.
          </span>
          </div>
          <div className="flex flex-col px-6">
          <span className="font-medium text-slate-400">RESULTS</span>
 
-       <span className="max-w-[500px] ">We aimed to attract a younger demographic 
-         and ensure the identity's longevity. Additionally, we overhauled the website's 
-         UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends 
-         London's prestige with global appeal, accompanied by a user-friendly website ready to 
-         engage a worldwide audience, positioning our institution for a thriving future in the 
-         performance and dance industry.
+       <span className="max-w-[500px] ">The website prioritizes a sleek, user-focused design, featuring intuitive navigation, mobile responsiveness, and high-quality visuals. Interaction and animation are key elements, ensuring an engaging user experience.
          </span>
          </div>
          </div>

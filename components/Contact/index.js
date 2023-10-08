@@ -25,7 +25,12 @@ export default function index() {
                     </span>
                     <h2>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
-                    <a href="www.27-studio.com/public/rdcv.pdf" download>
+                    <a
+    href="/rdcv.pdf"
+    alt="alt text"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
                         <Rounded  backgroundColor={"#334BD3"} className={styles.button}>
                             <p>View CV</p>
                         </Rounded>

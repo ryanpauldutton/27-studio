@@ -17,7 +17,7 @@ export default function ProjectOne({}) {
         <div className="flex flex-col mt-0 p-2 pt-20 pb-40 ">
           <div className="flex justify-between">
           <h1 className="font-semibold text-6xl text-green-950">JACK SOLOMONS</h1>
-          <a className="transition-all underline hover:font-bold" href="www.jacksolomons.com">VIEW LIVE PROJECT</a>
+          <a className="transition-all underline hover:font-bold" href="https://jacksolomons.com/">VIEW LIVE PROJECT</a>
           </div>
           </div>
 
@@ -25,7 +25,7 @@ export default function ProjectOne({}) {
         <div className="flex place-content-start flex-col w-1/4">
           <h1 className="font-semibold text-6xl"></h1>
           <span className="font-medium text-slate-500">INVOLVEMENT</span>
-          <span className="text-white">Development <br></br> UI/UX Design</span></div>
+          <span >Development <br></br> UI/UX Design</span></div>
 
         <div className="flex flex-col">
           <h1 className="font-semibold text-6xl"></h1>

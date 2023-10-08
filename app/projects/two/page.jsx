@@ -13,10 +13,11 @@ export default function ProjectOne({ }) {
     <main className="bg-slate-300">
       <div className="flex-col w-full">
 
-        <div className="flex flex-col mt-0 p-2 pt-20">
-          <div>
+        <div className="flex w-full mt-0 p-2 pt-20 justify-between">
+          
             <h1 className="font-semibold text-6xl text-slate-800">GPAA</h1>
-          </div>
+            <a className=" transition-all underline hover:font-bold" href="https://globalperformingartsalliance.com/">VIEW LIVE PROJECT</a>
+          
         </div>
 
         <div className="flex px-2 justify-start content-start w-full py-10">

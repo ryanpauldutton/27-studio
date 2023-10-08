@@ -3,7 +3,7 @@ import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
 import mainimg from "/public/images/hc-main.jpg";
-import img2 from "/public/images/p3cl-screen-one.png";
+import img2 from "/public/images/hcphone.jpg";
 import img3 from "/public/images/p3cl-screen-two.png";
 import img4 from "/public/images/p3cl-screen-three.png";
 import img5 from "/public/images/p3cl-imacpro.jpg";
