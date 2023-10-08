@@ -8,8 +8,8 @@ export default function index({index, title, manageModal, link, desc}) {
     return (
         <div onMouseEnter={(e) => {manageModal(true, index, e.clientX, e.clientY)}} onMouseLeave={(e) => {manageModal(false, index, e.clientX, e.clientY)}} className={styles.project}>
             <Link className='w-full h-full flex justify-between items-center' href={link}>
-            <h2>{title}</h2>
-            <p>{desc}</p>
+            <h2 className="text-slate-800">{title}</h2>
+            <p className="text-slate-800">{desc}</p>
             </Link>
         </div>
     )

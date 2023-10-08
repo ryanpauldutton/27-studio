@@ -21,7 +21,7 @@ export default function ProjectOne({ }) {
           <div className="flex flex-col mt-0 p-2 pt-20 pb-40">
             <div className="flex justify-between">
               <h1 className="font-semibold text-6xl text-gray-700">HIGHER CAPITAL</h1>
-              <a className=" transition-all underline hover:font-bold" href="https://highercapital.co.uk/">VIEW LIVE PROJECT</a>
+              <a className=" transition-all underline hover:font-bold text-slate-800" href="https://highercapital.co.uk/">VIEW LIVE PROJECT</a>
             </div>
           </div>
 
@@ -29,20 +29,20 @@ export default function ProjectOne({ }) {
             <div className="flex place-content-start flex-col w-1/4">
               <h1 className="font-semibold text-6xl"></h1>
               <span className="font-medium text-slate-500">INVOLVEMENT</span>
-              <span >Branding <br></br> UI/UX Design</span></div>
+              <span className="text-slate-800">Branding <br></br> UI/UX Design</span></div>
 
             <div className="flex flex-col">
               <h1 className="font-semibold text-6xl"></h1>
 
               <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
 
-              <span className="max-w-[500px] ">Higher Capital Consulting is a dynamic force in the realm of real estate recruitment, driven by a clear vision to consistently exceed client expectations. With a profound mastery of both recruitment and real estate, our team facilitates genuine collaboration, offers insightful consultation, and grants access to a reservoir of top-tier talent.
+              <span className="max-w-[500px] text-slate-800">Higher Capital Consulting is a dynamic force in the realm of real estate recruitment, driven by a clear vision to consistently exceed client expectations. With a profound mastery of both recruitment and real estate, our team facilitates genuine collaboration, offers insightful consultation, and grants access to a reservoir of top-tier talent.
               </span>
             </div>
             <div className="flex flex-col px-6">
               <span className="font-medium text-slate-500">RESULTS</span>
 
-              <span className="max-w-[500px] ">Working closely with Chris, the head of Higher Capital, I spearheaded a comprehensive overhaul of their online presence. The result is a cutting-edge and minimalist web design that not only reflects the company's forward-thinking approach but also enhances user engagement and navigation. This redesign involved meticulous attention to detail, from refining the user interface to optimizing the user experience. The end product is a visually striking and user-friendly website that effectively communicates Higher Capital's expertise in real estate recruitment.
+              <span className="max-w-[500px] text-slate-800">Working closely with Chris, the head of Higher Capital, I spearheaded a comprehensive overhaul of their online presence. The result is a cutting-edge and minimalist web design that not only reflects the company's forward-thinking approach but also enhances user engagement and navigation. This redesign involved meticulous attention to detail, from refining the user interface to optimizing the user experience. The end product is a visually striking and user-friendly website that effectively communicates Higher Capital's expertise in real estate recruitment.
               </span>
             </div>
           </div>

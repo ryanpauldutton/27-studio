@@ -19,7 +19,7 @@ export default function ProjectOne({}) {
        <div className="flex flex-col mt-0 p-2 pt-20 pb-40">
          <div className="flex justify-between">
          <h1 className="font-semibold text-6xl ">P3CL</h1>
-         <a className=" transition-all underline hover:font-bold" href="https://p3cl.co.uk/">VIEW LIVE PROJECT</a>
+         <a className=" transition-all underline hover:font-bold text-slate-800" href="https://p3cl.co.uk/">VIEW LIVE PROJECT</a>
          </div>
          </div>
 
@@ -27,20 +27,20 @@ export default function ProjectOne({}) {
        <div className="flex place-content-start flex-col w-1/4">
          <h1 className="font-semibold text-6xl"></h1>
          <span className="font-medium text-slate-400">INVOLVEMENT</span>
-         <span >Branding <br></br> UI/UX Design</span></div>
+         <span className="text-slate-800">Branding <br></br> UI/UX Design</span></div>
 
        <div className="flex flex-col">
          <h1 className="font-semibold text-6xl"></h1>
          
          <span className="font-medium text-slate-400">COMPANY OVERVIEW</span>
 
-       <span className="max-w-[500px] ">P3CL is a groundbreaking initiative spearheaded by industry trailblazers, a distinguished team with unparalleled expertise in construction, talent management, and women's leadership. There mission is to revolutionize the construction industry by unleashing talent potential, fostering virtual HR excellence, and empowering women in leadership roles.
+       <span className="max-w-[500px] text-slate-800">P3CL is a groundbreaking initiative spearheaded by industry trailblazers, a distinguished team with unparalleled expertise in construction, talent management, and women's leadership. There mission is to revolutionize the construction industry by unleashing talent potential, fostering virtual HR excellence, and empowering women in leadership roles.
          </span>
          </div>
          <div className="flex flex-col px-6">
          <span className="font-medium text-slate-400">RESULTS</span>
 
-       <span className="max-w-[500px] ">The website prioritizes a sleek, user-focused design, featuring intuitive navigation, mobile responsiveness, and high-quality visuals. Interaction and animation are key elements, ensuring an engaging user experience.
+       <span className="max-w-[500px] text-slate-800">The website prioritizes a sleek, user-focused design, featuring intuitive navigation, mobile responsiveness, and high-quality visuals. Interaction and animation are key elements, ensuring an engaging user experience.
          </span>
          </div>
          </div>
