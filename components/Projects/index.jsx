@@ -13,24 +13,28 @@ const projects = [
       src: "JS-imac.jpg",
       color: "#000000",
       link: "/projects/one",
+      desc: "Design & Development"
     },
     {
       title: "GPAA",
       src: "logo.jpg",
       color: "#8C8C8C",
-      link: "/projects/two"
+      link: "/projects/two",
+      desc: "Branding & Development"
     },
     {
       title: "Higher Capital",
       src: "hc-main.jpg",
       color: "#EFE8D3",
-      link: "/projects/three"
+      link: "/projects/three",
+      desc: "Design & Development"
     },
     {
       title: "P3CL",
       src: "P3CL-Web.jpg",
       color: "#706D63",
-      link: "/projects/four"
+      link: "/projects/four",
+      desc: "Design & Development"
     }
   ]
 
@@ -84,8 +88,8 @@ export default function Home() {
   <main onMouseMove={(e) => {moveItems(e.clientX, e.clientY)}} className={styles.projects}>
     <div className={styles.body}>
       {
-        projects.map( (project, index, link) => {
-          return <Project index={index} title={project.title} link={project.link} manageModal={manageModal} key={index}/>
+        projects.map( (project, index) => {
+          return <Project index={index} title={project.title} link={project.link} desc={project.desc} manageModal={manageModal} key={index}/>
         })
       }
     </div>

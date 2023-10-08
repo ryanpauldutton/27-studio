@@ -7,7 +7,7 @@ import Rounded from '../../common/RoundedButton';
 
 export default function index() {
 
-    const desc = "I am a graphic and web designer based in East London,I like to make new and interesting designs that excite the user";
+    const desc = "I am a graphic and web designer based in East London, I like to make new and interesting designs that excite the user.";
     const description = useRef(null);
     const isInView = useInView(description)
 
