@@ -12,44 +12,54 @@ import p3clmacbooktable from "/public/images/p3cl-macbook-table.jpg";
 export default function ProjectOne({}) {
     return (
       <main>
-       <div className=" flex">
+      <div className="flex flex-col bg-slate-300">
        
-        <div className="flex flex-col mt-20 p-6 w-1/4"><div className="h-24">
-          <h1 className="font-semibold text-6xl">GPAA</h1>
-          </div><span className="font-medium text-slate-500">CLIENT</span><span>GPAA</span></div>
-        <div className="flex flex-col mt-20 p-6 w-1/4">
-          <div className="h-24"><h1 className="font-semibold text-6xl"></h1></div>
-          <span className="font-medium text-slate-500">INVOLVEMENT</span>
-          <span>Branding <br></br> UI/UX Design</span></div>
+       <div className="flex-col w-full">
+       
+       <div className="flex flex-col mt-0 p-2 pt-20 pb-40">
+         <div className="flex justify-between">
+         <h1 className="font-semibold text-6xl ">P3CL</h1>
+         <a className=" transition-all underline hover:font-bold" href="https://p3cl.co.uk/">VIEW LIVE PROJECT</a>
+         </div>
+         </div>
 
-        <div className="flex flex-col mt-20 p-6 w-1/2">
-          <div className="h-24"><h1 className="font-semibold text-6xl"></h1>
-          
-          </div>
-          
-          
-          <span className="font-medium text-slate-500">COMPANY OVERVIEW</span>
+         <div className="flex px-2 justify-start content-start w-full py-10 ">
+       <div className="flex place-content-start flex-col w-1/4">
+         <h1 className="font-semibold text-6xl"></h1>
+         <span className="font-medium text-slate-400">INVOLVEMENT</span>
+         <span >Branding <br></br> UI/UX Design</span></div>
 
-        <span className="max-w-[500px]">The Global Performance Arts Alliance is a visionary project led by Solange Urdang 
-          and an accomplished team boasting extensive expertise in dance, theatre, and performing 
-          arts education. Our aim is to harness creativity and innovation on a global scale, as we 
-          endeavor to bring the finest West End training to the world.
-          </span>
-          <span className="font-medium text-slate-500 mt-12">RESULTS</span>
+       <div className="flex flex-col">
+         <h1 className="font-semibold text-6xl"></h1>
+         
+         <span className="font-medium text-slate-400">COMPANY OVERVIEW</span>
 
-        <span className="max-w-[500px]">Our project involved rebranding a London-based Performance and Dance School's
-          global branch, aligning it with international audiences while maintaining synergy
-          with the company's existing identity. We aimed to attract a younger demographic 
-          and ensure the identity's longevity. Additionally, we overhauled the website's 
-          UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends 
-          London's prestige with global appeal, accompanied by a user-friendly website ready to 
-          engage a worldwide audience, positioning our institution for a thriving future in the 
-          performance and dance industry.
-          </span></div>
-          
+       <span className="max-w-[500px] ">The Global Performance Arts Alliance is a visionary project led by Solange Urdang 
+         and an accomplished team boasting extensive expertise in dance, theatre, and performing 
+         arts education. Our aim is to harness creativity and innovation on a global scale, as we 
+         endeavor to bring the finest West End training to the world.
+         </span>
+         </div>
+         <div className="flex flex-col px-6">
+         <span className="font-medium text-slate-400">RESULTS</span>
+
+       <span className="max-w-[500px] ">We aimed to attract a younger demographic 
+         and ensure the identity's longevity. Additionally, we overhauled the website's 
+         UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends 
+         London's prestige with global appeal, accompanied by a user-friendly website ready to 
+         engage a worldwide audience, positioning our institution for a thriving future in the 
+         performance and dance industry.
+         </span>
+         </div>
+         </div>
+         
+      </div>
+     
+
+        
+
        </div>
-      
-<div className="m-screen h-screen w-screen overflow-hidden">
+<div className="m-screen h-auto w-screen overflow-hidden pb-40 bg-slate-300">
 <Image 
   src={mainimg}
   className="object-cover block"
@@ -60,8 +70,8 @@ export default function ProjectOne({}) {
   />
 </div>
 
-<div className="h-[130vh] flex">
-<div className="w-1/2 p-12">
+<div className="h-[130vh] flex bg-slate-300">
+<div className="w-1/2 p-2">
 <Image 
   src={p3clmacbooktable}
   className="object-cover block"
@@ -72,51 +82,12 @@ export default function ProjectOne({}) {
   />
 
 </div>
-<div className="w-1/2 p-12 h-full flex flex-col-reverse">
-<Image 
-  src={p3climac}
-  className="object-cover block drop-shadow-md"
-  placeholder="blur"
-  quality={100}
-  height={600}
-  sizes="100vw"
-  />
-
-</div>
-</div>
-
-<div className="h-auto py-24 flex">
-<div className="w-1/3 p-12 flex justify-center">
-<Image 
-  src={p3clmobileone}
-  className="object-cover block drop-shadow-md"
-  placeholder="blur"
-  quality={100}
-  height={700}
-  sizes="100vw"
-  />
-
-</div>
-<div className="w-1/3 p-12 flex justify-center">
-<Image 
-  src={p3clmobiletwo}
-  className="object-cover block drop-shadow-md"
-  placeholder="blur"
-  quality={100}
-  height={700}
-  sizes="100vw"
-  />
-
-</div>
-<div className="w-1/3 p-12 flex justify-center drop-shadow-md">
-<Image 
-  src={p3clmobilethree}
-  className="object-cover block"
-  placeholder="blur"
-  quality={100}
-  height={700}
-  sizes="100vw"
-  />
+<div className="w-1/2 p-2 h-full flex flex-col-reverse">
+<div className="overflow-hidden flex-col align-top">
+<video muted autoPlay loop style={{ width: '100vw', height: 'auto' }}>
+<source src="/video/p3cl-flat.mp4" type="video/mp4"/>
+     </video>
+          </div>
 
 </div>
 </div>

@@ -9,12 +9,9 @@ const Navbar = () => (
 
         <Link href='/'><h2 className="font-bold leading-[30px] text-[20px]">27-STUDIO</h2></Link>
         <ul className="flex gap-4">
-            <li>
-           <TestMove className="px-2" text="WORK" />
-            </li>
            
-            <li> <TestMove className="px-2" text="CV" /></li>
-            <li> <Link href="/projects" ><TestMove className="px-2" text="CONTACT" /></Link></li>
+        <a href ="/public/images/ryandutton-cv.pdf" download ><li> <TestMove className="px-2" text="CV" /></li></a>
+            <a href="mailto:ryanpauldutton@gmail.com"><li><TestMove className="px-2" text="CONTACT" /></li></a>
         </ul>
 
     </nav>

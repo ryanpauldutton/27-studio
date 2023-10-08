@@ -2,10 +2,11 @@
 import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
-import img1 from "/public/images/js-mobile-1.png"
-import img2 from "/public/images/js-mobile-1.png"
-import img3 from "/public/images/js-mobile-1.png"
-import img4 from "/public/images/js-mobile-1.png"
+import img1 from "/public/images/gpaa-logo.jpg"
+import img2 from "/public/images/gpaa-wall.jpg"
+import img3 from "/public/images/gpaa-bc.jpg"
+import img4 from "/public/images/gpaa-main.jpg"
+import Rounded from '/common/RoundedButton';
 
 export default function ProjectOne({ }) {
   return (
@@ -62,10 +63,10 @@ export default function ProjectOne({ }) {
       </div>
 
       <div className="h-[130vh] flex">
-        <div className="w-1/2 p-12">
+        <div className="w-1/2 p-2">
           <Image
             src={img2}
-            className="object-cover block"
+            className="object-cover block drop-shadow-md"
             placeholder="blur"
             quality={100}
             height={1200}
@@ -74,7 +75,7 @@ export default function ProjectOne({ }) {
           />
 
         </div>
-        <div className="w-1/2 p-12 h-full flex flex-col-reverse">
+        <div className="w-1/2 p-2 h-full flex flex-col-reverse items-end">
           <Image
             src={img3}
             className="object-cover block drop-shadow-md"
@@ -91,7 +92,7 @@ export default function ProjectOne({ }) {
       <div className="h-auto py-24 flex">
 
 
-        <div className="m-screen h-screen w-screen overflow-hidden">
+        <div className="m-screen h-auto w-screen overflow-hidden">
           <Image
             src={img4}
             className="object-cover block"
@@ -104,7 +105,13 @@ export default function ProjectOne({ }) {
 
 
       </div>
-
+      <a href="/projects/three">
+<div className="flex justify-center p-10">
+<Rounded>
+                            <p>view next project</p>
+                        </Rounded>
+                        </div>
+                        </a>
     </main>
   )
 }

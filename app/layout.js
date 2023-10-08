@@ -2,7 +2,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/NavBar.jsx'
-import Preloader from '../components/preloader'
+import Preloader from '../components/Preloader'
 import Side from '../components/Side'
 import SmoothScroll from '../components/SmoothScroll'
 import Link from 'next/link'
@@ -22,21 +22,22 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      {/* <Preloader /> */}
-      
-      
-      
-        <Navbar />
         {/* <Preloader /> */}
+        <main className='w-full overflow-hidden'>
+
+
+        <Navbar />
+
         {/* <SmoothScroll> */}
         {children}
-        
-    
-        
+
+
+
         {/* </SmoothScroll> */}
-        <CustomCursor/>
+        <CustomCursor />
         <SlidingImages />
         <Contact />
+        </main>
       </body>
     </html>
   )

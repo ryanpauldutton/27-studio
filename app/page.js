@@ -5,11 +5,12 @@ import Link from 'next/link.js'
 import Card from '../components/Card'
 import ThreeDType from '../components/ThreeDType'
 import ScrollType from '../components/ScrollType'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Projects from '../components/Projects';
 import Descript from '../components/descript';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
+import Preloader from '../components/Preloader'
 
 
 
@@ -17,12 +18,28 @@ import Contact from '../components/Contact';
 
 export default function Home() {
 
+  const [isLoading, setIsLoading] = useState(true);
 
-  const [modal, setModal] = useState({ active: false, index: 0 })
+  useEffect(() => {
+    (
+      async () => {
+        const LocomotiveScroll = (await import('locomotive-scroll')).default
+        const locomotiveScroll = new LocomotiveScroll();
+
+        setTimeout(() => {
+          setIsLoading(false);
+          window.scrollTo(0, 0);
+        }, 2000)
+      }
+    )()
+  }, [])
+
   return (
 
     <main className="flex flex-col relative bg-slate-300 overflow-hidden">
-
+      {
+        isLoading && <Preloader />
+      }
       <div className='absolute w-full h-screen z-30 flex flex-col-reverse p-2 '>
         <ScrollType />
       </div>
