@@ -51,7 +51,7 @@ export default function ProjectOne({}) {
       </video>
 </div>
 
-<div className="h-[130vh] flex">
+<div className="h-[130vh] pb-20 flex">
 <div className="w-1/2 p-2  py-20">
 <Image 
   src={img2}
