@@ -47,7 +47,7 @@ export default function ProjectOne({}) {
       
 <div className="overflow-hidden flex-col align-top">
 <video muted autoPlay loop style={{ width: '100vw', height: 'auto' }}>
-<source src="/video/js-macbook-2.mp4" type="video/mp4"/>
+<source src="js-macbook-2.mp4" type="video/mp4"/>
       </video>
 </div>
 

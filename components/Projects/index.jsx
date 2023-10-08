@@ -16,7 +16,7 @@ const projects = [
     },
     {
       title: "GPAA",
-      src: "gpaa-main.jpg",
+      src: "logo.jpg",
       color: "#8C8C8C",
       link: "/projects/two"
     },

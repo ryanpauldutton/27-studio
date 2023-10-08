@@ -78,9 +78,9 @@ export default function ProjectOne({ }) {
 
         </div>
         <div className="w-1/2 p-12 h-full flex flex-col-reverse items-end">
-          <div className="overflow-hidden flex-col align-top">
-            <video muted autoPlay loop style={{ width: '100vw', height: 'auto' }}>
-              <source src="/video/hc-flat.mp4" type="video/mp4" />
+          <div>
+            <video muted autoPlay loop style={{ width: '50vw', height: '500' }}>
+              <source src="hc-flat.mp4" type="video/mp4" />
             </video>
           </div>
 
@@ -88,7 +88,7 @@ export default function ProjectOne({ }) {
    
 
       </div>
-      <a href="/projects/three">
+      <a href="/projects/four">
         <div className="flex justify-center p-10 bg-slate-300">
           <Rounded>
             <p>view next project</p>
