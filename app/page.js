@@ -31,6 +31,8 @@ export default function Home() {
 
       <Descript />
       <Projects />
+      <SlidingImages />
+        <Contact />
     </main>
 
 

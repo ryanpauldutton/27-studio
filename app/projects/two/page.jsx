@@ -2,10 +2,10 @@
 import ProjectBody from "../../../components/ProjectBody";
 import Link from "next/link";
 import Image from "next/image";
-import img1 from "/public/images/gpaa-logo.jpg"
-import img2 from "/public/images/gpaa-wall.jpg"
-import img3 from "/public/images/gpaa-bc.jpg"
-import img4 from "/public/images/gpaa-main.jpg"
+import img1 from "/public/images/js-mobile-1.png"
+import img2 from "/public/images/js-mobile-1.png"
+import img3 from "/public/images/js-mobile-1.png"
+import img4 from "/public/images/js-mobile-1.png"
 
 export default function ProjectOne({ }) {
   return (
