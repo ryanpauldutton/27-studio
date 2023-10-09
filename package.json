@@ -18,6 +18,7 @@
     "@react-three/drei": "^9.66.0",
     "@react-three/fiber": "^8.12.2",
     "@studio-freight/react-lenis": "^0.0.19",
+    "@vercel/analytics": "^1.1.0",
     "autoprefixer": "10.4.14",
     "classnames": "^2.3.2",
     "framer-motion": "^10.12.10",

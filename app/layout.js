@@ -1,4 +1,5 @@
 
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '../components/NavBar.jsx'
@@ -30,13 +31,14 @@ export default function RootLayout({ children }) {
 
         {/* <SmoothScroll> */}
         {children}
-
+        
 
 
         {/* </SmoothScroll> */}
         <CustomCursor />
         <SlidingImages />
         <Contact />
+        <Analytics />
         </main>
       </body>
     </html>
