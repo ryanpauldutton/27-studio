@@ -77,7 +77,7 @@ export default function ProjectOne({}) {
 <div className="w-1/2 p-2 h-full flex flex-col-reverse">
 <div className="overflow-hidden flex-col align-top">
 <video autoPlay loop muted style={{ width: '100vw', height: 'auto' }}>
-<source src="/video/p3cl-flat.mp4" type="video/mp4"/>
+<source src="/video/peoplecon.mp4" type="video/mp4"/>
      </video>
           </div>
 
