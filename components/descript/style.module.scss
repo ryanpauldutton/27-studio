@@ -1,6 +1,7 @@
+
 .description{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-bottom: 200px;
     margin-top: 200px;
     display: flex;
@@ -43,7 +44,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
+            
             p{
                 margin: 0px;
                 font-size: 16px;
@@ -57,5 +58,20 @@
         padding: 20px;
         border-radius: 40px;
         border: 1px solid grey;
+    }
+}
+
+@media (max-width: 767px){
+    .description{
+        flex-direction: column;
+        padding-bottom: 120px !important;
+        .body{
+            flex-direction: column;
+        }
+        .button{
+            top: 100% !important;
+            width: 100px !important;
+            height: 100px !important;
+        }
     }
 }

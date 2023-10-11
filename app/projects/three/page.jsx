@@ -79,7 +79,7 @@ export default function ProjectOne({ }) {
         </div>
         <div className="w-1/2 p-12 h-full flex flex-col-reverse items-end">
           <div>
-            <video muted autoPlay loop style={{ width: '50vw', height: '500' }}>
+            <video autoPlay loop muted style={{ width: '50vw', height: 'auto' }}>
               <source src="/video/hc-flat.mp4" type="video/mp4" />
             </video>
           </div>
