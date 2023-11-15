@@ -1,11 +1,23 @@
 'use client'
 
+import { Vector3 } from 'three'
 import { Suspense } from 'react'
-import { Canvas } from '@react-three/fiber'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Environment, OrbitControls } from '@react-three/drei'
 
 
 import ModelTwo from './ModelTwo'
+
+const vec = new Vector3()
+
+function Rig() {
+  return useFrame(({ camera, mouse }) => {
+    vec.set(mouse.x * 1.5, mouse.y * 2, camera.position.z)
+    camera.position.lerp(vec, 0.1)
+    camera.lookAt(0, 0, 0)
+  })
+}
+
 
 export default function ThreeDType() {
     return(
@@ -18,8 +30,9 @@ export default function ThreeDType() {
       >
         <Suspense fallback={null}>
           <ModelTwo />
-          <OrbitControls makeDefault />
+         
           <Environment preset="city" />
+          <Rig />
         </Suspense>
       </Canvas>
     )

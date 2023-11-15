@@ -36,15 +36,15 @@ export default function Home() {
 
   return (
 
-    <main className="flex flex-col relative bg-slate-300 overflow-hidden">
+    <main className="flex flex-col relative min-h-screen bg-slate-300 overflow-hidden">
       {
         isLoading && <Preloader />
       }
-      <div className='absolute w-full h-screen z-30 flex flex-col-reverse p-2 '>
+      <div className='absolute pointer-events-none w-full h-screen flex flex-col-reverse p-2 '>
         <ScrollType />
       </div>
 
-      <ThreeDType />
+      <ThreeDType className="z-10"/>
 
       <Descript />
       <Projects />
