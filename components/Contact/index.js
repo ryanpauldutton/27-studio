@@ -26,7 +26,7 @@ export default function index() {
                     <h2>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                     <a
-    href="/rdcv.pdf"
+    href="/ryandutton-cv.pdf"
     alt="alt text"
     target="_blank"
     rel="noopener noreferrer"
@@ -52,7 +52,7 @@ export default function index() {
                 <div className={styles.info}>
                     <div>
                         <span>
-                            <h3>Version</h3>
+                            
                             <p>2023 - Thanks for visiting</p>
                         </span>
                         
