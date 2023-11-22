@@ -8,8 +8,14 @@ import mobilethree from "/public/images/js-mobile-1.png";
 import img2 from "/public/images/jsmacbook1200.jpg";
 import img3 from "/public/images/jsimac800.jpg";
 import Rounded from '/common/RoundedButton';
+import { hotjar } from 'react-hotjar'
 
 export default function ProjectOne({}) {
+  
+  useEffect(() => {
+    hotjar.initialize(3747144, 6)
+  }, [])
+  
     return (
       <main className="bg-slate-300">
        <div className="flex-col w-full">

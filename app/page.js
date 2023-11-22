@@ -11,12 +11,17 @@ import Descript from '../components/descript';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
 import Preloader from '../components/Preloader'
-
+import { hotjar } from 'react-hotjar'
 
 
 
 
 export default function Home() {
+
+    useEffect(() => {
+      hotjar.initialize(3747144, 6)
+    }, [])
+    
 
   const [isLoading, setIsLoading] = useState(true);
 
