@@ -9,9 +9,10 @@ import img2 from "/public/images/jsmacbook1200.jpg";
 import img3 from "/public/images/jsimac800.jpg";
 import Rounded from '/common/RoundedButton';
 import { hotjar } from 'react-hotjar'
+import { useEffect } from 'react';
 
 export default function ProjectOne({}) {
-  
+
   useEffect(() => {
     hotjar.initialize(3747144, 6)
   }, [])
