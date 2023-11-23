@@ -8,8 +8,15 @@ import p3clmobiletwo from "/public/images/p3cl-screen-two.png";
 import p3clmobilethree from "/public/images/p3cl-screen-three.png";
 import p3climac from "/public/images/p3cl-imacpro.jpg";
 import p3clmacbooktable from "/public/images/p3cl-macbook-table.jpg";
+import { hotjar } from 'react-hotjar'
+import { useEffect } from 'react';
 
 export default function ProjectOne({}) {
+
+  useEffect(() => {
+    hotjar.initialize(3747144, 6)
+  }, [])
+
     return (
       <main>
       <div className="flex flex-col bg-slate-300">

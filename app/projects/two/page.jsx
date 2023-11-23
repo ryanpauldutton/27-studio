@@ -7,8 +7,15 @@ import img2 from "/public/images/wall.jpg"
 import img3 from "/public/images/bc.jpg"
 import img4 from "/public/images/web.jpg"
 import Rounded from '/common/RoundedButton';
+import { hotjar } from 'react-hotjar'
+import { useEffect } from 'react';
 
 export default function ProjectOne({ }) {
+
+  useEffect(() => {
+    hotjar.initialize(3747144, 6)
+  }, [])
+
   return (
     <main className="bg-slate-300">
       <div className="flex-col w-full">

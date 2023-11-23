@@ -9,8 +9,15 @@ import img4 from "/public/images/p3cl-screen-three.png";
 import img5 from "/public/images/p3cl-imacpro.jpg";
 import img6 from "/public/images/p3cl-macbook-table.jpg";
 import Rounded from '/common/RoundedButton';
+import { hotjar } from 'react-hotjar'
+import { useEffect } from 'react';
 
 export default function ProjectOne({ }) {
+
+  useEffect(() => {
+    hotjar.initialize(3747144, 6)
+  }, [])
+
   return (
     <main>
       <div className="bg-slate-300">
