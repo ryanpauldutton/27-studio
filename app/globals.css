@@ -83,6 +83,12 @@ a{
     100% { transform: translate(5%,0) }
 }
 
+@media all and (max-width: 767px) {
+   .cursor{
+    display: none;
+   }
+}
+
 .cursor {
   position: fixed;
   top: 0;
