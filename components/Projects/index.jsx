@@ -8,34 +8,42 @@ import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
 
 const projects = [
+  {
+    title: "Sophie's",
+    src: "sophieschelseaimac.jpg",
+    color: "#EFE8D3",
+    link: "/projects/one",
+    desc: "Design & Development"
+  },
     {
       title: "Jack Solomons",
       src: "JS-imac.jpg",
       color: "#000000",
-      link: "/projects/one",
+      link: "/projects/two",
       desc: "Design & Development"
     },
     {
       title: "GPAA",
       src: "logo.jpg",
       color: "#8C8C8C",
-      link: "/projects/two",
+      link: "/projects/three",
       desc: "Branding & Development"
     },
     {
       title: "Higher Capital",
       src: "hc-main.jpg",
       color: "#EFE8D3",
-      link: "/projects/three",
+      link: "/projects/four",
       desc: "Design & Development"
     },
     {
       title: "P3CL",
       src: "P3CL-Web.jpg",
       color: "#706D63",
-      link: "/projects/four",
+      link: "/projects/five",
       desc: "Design & Development"
-    }
+    },
+    
   ]
 
 const scaleAnimation = {

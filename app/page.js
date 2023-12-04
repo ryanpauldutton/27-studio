@@ -8,8 +8,7 @@ import ScrollType from '../components/ScrollType'
 import { useEffect, useState } from 'react';
 import Projects from '../components/Projects';
 import Descript from '../components/descript';
-import SlidingImages from '../components/SlidingImages';
-import Contact from '../components/Contact';
+
 import Preloader from '../components/Preloader'
 import { hotjar } from 'react-hotjar'
 
