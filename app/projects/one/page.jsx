@@ -40,13 +40,13 @@ export default function ProjectOne({ }) {
             <div className="flex flex-col">
               <h1 className="font-semibold text-6xl"></h1>
               <span className="font-medium text-slate-400">PROJECT OVERVIEW</span>
-              <span className=" text-p text-slate-800">A self initiated project in order to show my skill set for your position at Conductor. I choose to reimagine the Trek Project One bike configuration website design. As I own a Trek and really enjoy the design and manufacturing of there bikes and I felt that there configuration website has room for improvement.
+              <span className=" text-p text-slate-800">Sophie's Steakhouse, a distinguished eatery with locations in Soho and Chelsea, entrusted me with a comprehensive UX/UI project aimed at refreshing its online presence. The goal is to seamlessly integrate enhanced functionality with a visually compelling design, in keeping with Sophie's Steakhouse commitment to all-day dining and a refined industrial atmosphere.
               </span>
 
               <div className="flex flex-col pt-8">
                 <span className="font-medium text-slate-400">RESULTS</span>
 
-                <span className="text-p text-slate-800">I created a more modern and interesting UX/UI Design and used After Effects to create a prototype of the motion design that could be developed for the site.
+                <span className="text-p text-slate-800">The redesigned web appearance embodies a seamless blend of simplicity and editorial finesse. Navigational structures are being intuitively reorganized to ensure a smooth user journey, reflecting the effortless sophistication associated with dining at Sophie's Steakhouse. Drawing inspiration from the restaurant's industrial ambiance, my design choices incorporate sleek visuals and intuitive layouts that resonate with the brand's aesthetic.
                 </span>
               </div>
             </div>

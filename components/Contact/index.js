@@ -26,7 +26,7 @@ export default function index() {
                     <h2>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                     <a
-    href="/ryandutton-cv.pdf"
+    href="/RyanDuttonCV.pdf"
     alt="alt text"
     target="_blank"
     rel="noopener noreferrer"

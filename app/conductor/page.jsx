@@ -33,13 +33,13 @@ export default function ProjectOne({ }) {
                         <div className="flex flex-col">
                             <h1 className="font-semibold text-6xl"></h1>
                             <span className="font-medium text-slate-400">PROJECT OVERVIEW</span>
-                            <span className=" text-p text-slate-800">A self initiated project in order to show my skill set for your position at Conductor. I choose to reimagine the Trek Project One bike configuration website design. As I own a Trek and really enjoy the design and manufacturing of there bikes and I felt that there configuration website has room for improvement.
+                            <span className=" text-p text-slate-800">Embarking on a self-initiated venture to showcase my skills for the Conductor position, I opted to reimagine the Trek Project One bike configuration website design. Being a Trek owner and admirer of their bike design and manufacturing, I identified areas for enhancement in their configuration website.
                             </span>
 
                             <div className="flex flex-col pt-8">
                                 <span className="font-medium text-slate-400">RESULTS</span>
 
-                                <span className="text-p text-slate-800">I created a more modern and interesting UX/UI Design and used After Effects to create a prototype of the motion design that could be developed for the site.
+                                <span className="text-p text-slate-800">I delivered a contemporary and captivating UX/UI Design, complemented by an After Effects prototype for dynamic motion design—a potential evolution for the site.
                                 </span>
                             </div>
                         </div>
