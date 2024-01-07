@@ -23,7 +23,7 @@ export default function index() {
             </p>
             <motion.p className='text-slate-800' variants={opacity} animate={isInView ? "open" : "closed"}>The combination of my passion for design, code & interaction positions me in a unique place in the web design world.</motion.p>
             <div data-scroll data-scroll-speed={0.1}>
-            <a target="_blank" href ="/RyanDuttonCV.pdf" download > <Rounded className={styles.button}>
+            <a target="_blank" href ="/rdcv2024.pdf" download > <Rounded className={styles.button}>
                     <p>About me</p>
                 </Rounded></a>
             </div>
