@@ -20,6 +20,16 @@ export default function Home() {
     useEffect(() => {
       hotjar.initialize(3747144, 6)
     }, [])
+
+    useEffect( () => {
+      (
+        async () => {
+    const LocomotiveScroll = (await import('locomotive-scroll')).default;
+    const locomotiveScroll = new LocomotiveScroll();
+  }
+    )()
+
+}, [])
     
 
   const [isLoading, setIsLoading] = useState(true);
