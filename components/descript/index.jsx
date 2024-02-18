@@ -7,7 +7,7 @@ import Rounded from '../../common/RoundedButton';
 
 export default function index() {
 
-    const desc = "I am a graphic and web designer based in East London, I like to make new and interesting designs that excite the user.";
+    const desc = "I am a Web designer based in East London, I'm addicted to creating exciting user experiences and creating interactions that give users a unique experience.";
     const description = useRef(null);
     const isInView = useInView(description)
 
@@ -21,10 +21,10 @@ export default function index() {
                 })
             }
             </p>
-            <motion.p className='text-slate-800' variants={opacity} animate={isInView ? "open" : "closed"}>The combination of my passion for design, code & interaction positions me in a unique place in the web design world.</motion.p>
+            <motion.p className='text-slate-800' variants={opacity} animate={isInView ? "open" : "closed"}>I continuously immerse myself in new technologies and art styles, ensuring every interaction is not only enjoyable but also pushes the boundaries of what's possible online.</motion.p>
             <div data-scroll data-scroll-speed={0.1}>
-            <a target="_blank" href ="/rdcv2024.pdf" download > <Rounded className={styles.button}>
-                    <p>About me</p>
+            <a target="_blank" href ="/ryanduttoncv.pdf" download > <Rounded className={styles.button}>
+                    <p>Download CV</p>
                 </Rounded></a>
             </div>
         </div>
