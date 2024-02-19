@@ -38,7 +38,7 @@ export default function ProjectOne({ }) {
             <div className="flex place-content-start flex-col">
 
               <span className="font-medium  text-slate-400">INVOLVEMENT</span>
-              <span className="text-slate-800 text-p"> UI/UX Design<br />Development</span>
+              <span className="text-slate-800 text-p"> UI/UX Design<br />Development<br />Wordpress</span>
             </div>
 
             <div className="flex flex-col">
@@ -47,12 +47,7 @@ export default function ProjectOne({ }) {
               <span className=" text-p text-slate-800">Jack Solomons is the epitome of timeless sophistication in the world of nightlife, located in the heart of London. The establishment offers a classic and stylish speakeasy experience like no other, where meticulously crafted cocktails and delectable small plates are served in an artfully decorated space that exudes an air of mystery and sophistication. At Jack Solomons, they celebrate the traditions of the speakeasy with a modern twist, inviting you to unwind, indulge, and create unforgettable moments.
               </span>
 
-              <div className="flex flex-col pt-8">
-                <span className="font-medium text-slate-400">RESULTS</span>
-
-                <span className="text-p text-slate-800">We aimed at crafting a modern accompanied chic website for Jack Solomons. One of the standout features of the website was the implementation of captivating scroll animations. Leveraging this dynamic design technique, I created an immersive digital experience that perfectly mirrored the speakeasy's ambience. As visitors scrolled through the site, elements gracefully revealed themselves, seamlessly weaving together the venue's history, cocktails, and atmosphere.
-                </span>
-              </div>
+            
             </div>
           </div>
         </div>
@@ -67,6 +62,21 @@ export default function ProjectOne({ }) {
           <source src="/video/js-macbook-2.mp4" type="video/mp4" />
         </video>
       </div>
+
+      <div className="grid p-2 grid-cols-1 gap-8 pb-8 md:grid-cols-2">
+
+
+          <div className="flex flex-col px-8 py-20">
+            <span className="font-medium text-slate-400">RESULTS</span>
+
+            <span className="text-xl text-slate-800 ">We aimed at crafting a modern accompanied chic website for Jack Solomons. One of the standout features of the website was the implementation of captivating scroll animations. Leveraging this dynamic design technique, I created an immersive digital experience that perfectly mirrored the speakeasy's ambience. As visitors scrolled through the site, elements gracefully revealed themselves, seamlessly weaving together the venue's history, cocktails, and atmosphere.
+            </span>
+          </div>
+        </div>
+
+
+
+      
 
       <div className="grid p-2 grid-cols-1 gap-8 pb-8 md:grid-cols-2">
         <div className="p-2 py-20">

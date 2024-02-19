@@ -48,12 +48,7 @@ export default function ProjectOne({ }) {
                 <span className=" text-p text-slate-800">Higher Capital Consulting is a dynamic force in the realm of real estate recruitment, driven by a clear vision to consistently exceed client expectations. With a profound mastery of both recruitment and real estate, our team facilitates genuine collaboration, offers insightful consultation, and grants access to a reservoir of top-tier talent.
                 </span>
 
-                <div className="flex flex-col pt-8">
-                  <span className="font-medium text-slate-400">RESULTS</span>
-
-                  <span className="text-p text-slate-800">Working closely with Chris, the head of Higher Capital, I spearheaded a comprehensive overhaul of their online presence. The result is a cutting-edge and minimalist web design that not only reflects the company's forward-thinking approach but also enhances user engagement and navigation. This redesign involved meticulous attention to detail, from refining the user interface to optimizing the user experience. The end product is a visually striking and user-friendly website that effectively communicates Higher Capital's expertise in real estate recruitment.
-                  </span>
-                </div>
+               
               </div>
 
 
@@ -75,6 +70,18 @@ export default function ProjectOne({ }) {
             sizes="100vw"
           />
         </div>
+
+        <div className="grid p-2 grid-cols-1 gap-8 pb-8 md:grid-cols-2">
+
+
+          <div className="flex flex-col px-8 py-20">
+            <span className="font-medium text-slate-400">RESULTS</span>
+
+            <span className="text-xl text-slate-800 ">Working closely with Chris, the head of Higher Capital, I spearheaded a comprehensive overhaul of their online presence. The result is a cutting-edge and minimalist web design that not only reflects the company's forward-thinking approach but also enhances user engagement and navigation. This redesign involved meticulous attention to detail, from refining the user interface to optimizing the user experience. The end product is a visually striking and user-friendly website that effectively communicates Higher Capital's expertise in real estate recruitment.
+                  
+             </span>
+            </div>
+          </div>
 
         <div className="h-[130vh] flex bg-slate-300">
           <div className="w-1/2 p-12">

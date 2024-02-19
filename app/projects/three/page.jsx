@@ -36,7 +36,7 @@ export default function ProjectOne({ }) {
             <div className="flex place-content-start flex-col">
 
               <span className="font-medium  text-slate-400">INVOLVEMENT</span>
-              <span className="text-slate-800 text-p">Branding<br /> UI/UX Design<br />Development</span>
+              <span className="text-slate-800 text-p">Branding<br /> UI/UX Design<br />Development<br />Wordpress</span>
             </div>
 
             <div className="flex flex-col">
@@ -48,17 +48,7 @@ export default function ProjectOne({ }) {
                 endeavor to bring the finest West End training to the world.
               </span>
 
-              <div className="flex flex-col pt-8">
-                <span className="font-medium text-slate-400">RESULTS</span>
-
-                <span className="text-p text-slate-800">We aimed to attract a younger demographic
-                  and ensure the identity's longevity. Additionally, we overhauled the website's
-                  UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends
-                  London's prestige with global appeal, accompanied by a user-friendly website ready to
-                  engage a worldwide audience, positioning our institution for a thriving future in the
-                  performance and dance industry.
-                </span>
-              </div>
+             
             </div>
           </div>
         </div>
@@ -75,6 +65,22 @@ export default function ProjectOne({ }) {
           sizes="100vw"
         />
       </div>
+
+      <div className="grid p-2 grid-cols-1 gap-8 pb-8 md:grid-cols-2">
+
+
+<div className="flex flex-col px-8 py-20">
+  <span className="font-medium text-slate-400">RESULTS</span>
+
+  <span className="text-xl text-slate-800 ">Attracting a younger demographic
+                  and ensure the identity's longevity was key to the success of this project. Additionally, we overhauled the website's
+                  UX/UI using WordPress Elementor. The result is a dynamic brand identity that blends
+                  London's prestige with global appeal, accompanied by a user-friendly website ready to
+                  engage a worldwide audience, positioning our institution for a thriving future in the
+                  performance and dance industry.
+  </span>
+</div>
+</div>
 
       <div className="min-h-[130vh] p-2 grid grid-cols-2">
         <div className="p-2">

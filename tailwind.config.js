@@ -42,7 +42,7 @@ module.exports = {
           'gpaamain': "url('/gpaamain.jpg')"
       },
       fontSize: {
-        'p': 'clamp(1.56rem, 1vw + 1.31rem, 2.11rem)'
+        'p': 'clamp(1rem, 1vw + 1.1rem, 1.8rem)'
       },
       fontFamily: {
         heading: ["Inter", "sans-serif"],
